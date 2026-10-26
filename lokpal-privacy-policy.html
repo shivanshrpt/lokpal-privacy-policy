@@ -1,0 +1,271 @@
+<title>Lokpal Privacy Policy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Noto+Serif:wght@700&display=swap">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f6f8;
+    --fg: #1a1a2e;
+    --fg-muted: #555770;
+    --accent: #1a5632;
+    --accent-light: #e6f0eb;
+    --border: #d0d5dd;
+    --heading: 'Noto Serif', 'Georgia', serif;
+    --body: 'Noto Sans', 'Segoe UI', sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121827;
+      --surface: #1c2333;
+      --fg: #e2e4ea;
+      --fg-muted: #9498ab;
+      --accent: #5fb88a;
+      --accent-light: #1a2e24;
+      --border: #2d3448;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121827;
+    --surface: #1c2333;
+    --fg: #e2e4ea;
+    --fg-muted: #9498ab;
+    --accent: #5fb88a;
+    --accent-light: #1a2e24;
+    --border: #2d3448;
+    color-scheme: dark;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--body);
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0 16px;
+  }
+
+  .header {
+    background: var(--accent);
+    color: #ffffff;
+    text-align: center;
+    padding: 28px 20px 22px;
+    margin: 0 -16px;
+  }
+  .header-emblem {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    opacity: 0.85;
+    margin-bottom: 4px;
+  }
+  .header h1 {
+    font-family: var(--heading);
+    font-size: clamp(20px, 4vw, 28px);
+    font-weight: 700;
+    margin: 0 0 2px;
+    text-wrap: balance;
+  }
+  .header p {
+    font-size: 13px;
+    opacity: 0.8;
+    margin: 0;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 0 48px;
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    font-size: 13px;
+    color: var(--fg-muted);
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 28px;
+  }
+  .meta span { white-space: nowrap; }
+
+  h2 {
+    font-family: var(--heading);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 36px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--accent-light);
+  }
+  h2:first-of-type { margin-top: 0; }
+
+  p { margin: 0 0 14px; }
+
+  ul {
+    margin: 0 0 14px;
+    padding-left: 22px;
+  }
+  ul li { margin-bottom: 6px; }
+
+  .note-box {
+    background: var(--accent-light);
+    border-left: 3px solid var(--accent);
+    padding: 14px 16px;
+    border-radius: 0 6px 6px 0;
+    margin: 20px 0;
+    font-size: 14px;
+  }
+
+  .contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  .contact-table th,
+  .contact-table td {
+    text-align: left;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+  }
+  .contact-table th {
+    background: var(--accent);
+    color: #ffffff;
+    font-weight: 600;
+    width: 35%;
+  }
+  .contact-table td {
+    background: var(--surface);
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 12px;
+    color: var(--fg-muted);
+    padding: 20px 0;
+    border-top: 1px solid var(--border);
+    margin-top: 36px;
+  }
+
+  @media (max-width: 500px) {
+    .header { padding: 22px 16px 18px; }
+    h2 { font-size: 18px; }
+    .contact-table th { width: 40%; }
+  }
+</style>
+
+<div class="header">
+  <div class="header-emblem">सत्यमेव जयते</div>
+  <h1>Privacy Policy</h1>
+  <p>Lokpal of India — Digitization Platform</p>
+</div>
+
+<div class="container">
+  <div class="meta">
+    <span><strong>App:</strong> Lokpal of India (com.shivanshrpt.Lokpal)</span>
+    <span><strong>Effective:</strong> 26 October 2026</span>
+    <span><strong>Version:</strong> 1.0</span>
+  </div>
+
+  <h2>Introduction</h2>
+  <p>
+    This Privacy Policy describes how the official mobile application ("Lokpal App") of the Lokpal of India collects, uses, and protects user information. The app is developed and maintained for providing digitized case management, e-filing, and protocol management services related to the Lokpal of India. By using this application, you agree to the practices described in this policy.
+  </p>
+
+  <h2>Information We Collect</h2>
+  <p>
+    This application collects information necessary to provide secure access to Lokpal services. The information collected may include:
+  </p>
+  <ul>
+    <li>Login credentials (username and password) for authentication through secure OAuth2 protocol</li>
+    <li>User profile information such as name, email address, user type, and user ID as returned by the authentication system</li>
+    <li>Case-related information such as complaint numbers, case details, party names, and filing information accessed through the app</li>
+    <li>Documents uploaded or accessed through the e-filing and protocol management modules</li>
+    <li>Device information such as device type, operating system version, and app version for ensuring compatibility and improving performance</li>
+    <li>Usage data and analytics to improve app functionality and user experience</li>
+  </ul>
+
+  <h2>How We Use Your Information</h2>
+  <p>The information collected is used solely for the following purposes:</p>
+  <ul>
+    <li>Authenticating users and providing secure access to Lokpal services</li>
+    <li>Facilitating e-filing of complaints and management of case-related documents</li>
+    <li>Providing protocol management services for authorized personnel</li>
+    <li>Sending push notifications regarding case updates and important announcements (if enabled by the user)</li>
+    <li>Improving the performance, functionality, and user experience of the application</li>
+    <li>Responding to user queries and providing support</li>
+  </ul>
+
+  <h2>Authentication &amp; Security</h2>
+  <p>
+    The application uses industry-standard OAuth2 authentication protocol to securely manage user sessions. Access tokens are stored locally on the user's device and are used to authenticate API requests. Passwords are never stored on the device — they are transmitted securely over HTTPS to the authentication server during login only.
+  </p>
+
+  <div class="note-box">
+    <strong>Important:</strong> All communications between the app and the server are encrypted using HTTPS/TLS protocols. Users are advised not to share their login credentials with anyone.
+  </div>
+
+  <h2>Data Sharing</h2>
+  <p>
+    Your information is used only for official purposes related to the functioning of the Lokpal of India and may be shared only when required by law or with authorized government agencies. We do not sell, trade, or otherwise transfer your personal information to outside parties.
+  </p>
+
+  <h2>Data Protection</h2>
+  <p>
+    Appropriate security practices are implemented to safeguard data from unauthorized access, alteration, disclosure, or destruction. Information collected through this application is used strictly for official administrative purposes of the Lokpal of India and is stored in secure government systems maintained by authorized personnel.
+  </p>
+
+  <h2>Local Storage &amp; Cookies</h2>
+  <p>
+    This application uses local storage on the user's device to store authentication tokens and user preferences for seamless access to services. These are essential for the proper functioning of the app. Users may clear this data by logging out of the application or clearing the app data through device settings.
+  </p>
+
+  <h2>Third-Party Services</h2>
+  <p>
+    The application may use third-party services for analytics, crash reporting, and push notifications (such as Google Firebase and Expo notification services). These services may collect anonymous usage data in accordance with their own privacy policies. No personally identifiable information is shared with these services without user consent.
+  </p>
+
+  <h2>User Rights</h2>
+  <p>Users have the right to:</p>
+  <ul>
+    <li>Access the personal information held about them</li>
+    <li>Request correction of inaccurate information</li>
+    <li>Request deletion of their personal data, subject to legal and operational requirements</li>
+    <li>Opt out of push notifications at any time through device settings</li>
+    <li>Log out and clear locally stored authentication data at any time</li>
+  </ul>
+
+  <h2>Children's Privacy</h2>
+  <p>
+    This application is not intended for use by children under the age of 13. We do not knowingly collect personal information from children. If we become aware that a child has provided personal information, we will take steps to delete such information.
+  </p>
+
+  <h2>Modification of Policy</h2>
+  <p>
+    The Lokpal of India reserves the right to update or modify this privacy policy at any time without prior notice. Continued use of the application constitutes acceptance of the updated policies. Users are advised to review this policy periodically.
+  </p>
+
+  <h2>Contact Information</h2>
+  <p>For any questions or concerns regarding this privacy policy, please contact:</p>
+  <table class="contact-table">
+    <tr>
+      <th>Organization</th>
+      <td>Lokpal of India</td>
+    </tr>
+    <tr>
+      <th>Address</th>
+      <td>Lokpal Bhawan, GPO Complex, INA, New Delhi — 110023</td>
+    </tr>
+    <tr>
+      <th>Website</th>
+      <td>https://lokpal.gov.in</td>
+    </tr>
+  </table>
+
+  <div class="footer">
+    &copy; 2026 Lokpal of India. All rights reserved.<br>
+    Contents published and managed by the Lokpal of India, New Delhi.
+  </div>
+</div>
